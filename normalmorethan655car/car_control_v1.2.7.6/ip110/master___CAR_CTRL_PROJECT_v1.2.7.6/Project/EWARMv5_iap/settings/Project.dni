@@ -1,0 +1,113 @@
+[DebugChecksum]
+Checksum=-1819939604
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[SWOTraceHWSettings]
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000000
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=Power [mA]
+Setup0=0 1 0 500 2 0 4 1 0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[TraceHelperExtra]
+Enabled=0
+ShowSource=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "EMUL_DATA" "write_moto_process" 0 0 0 116 0 "" 0 "" 0 0 0 4294967295
+Bp1=_ "STD_CODE" "{$PROJ_DIR$}.230.1@1" 0 0 0 0 "" 0 "" 0
+Bp2=_ "STD_CODE" "{E:\work\wuliu\wuliu_project_test\Project\EWARMv5}.584.13@1" 0 0 0 0 "" 0 "" 0
+Bp3=_ "STD_CODE" "{E:\work\wuliu\wuliu_project_16042801}.59.3@1" 0 0 0 0 "" 0 "" 0
+Bp4=_ "STD_CODE" "{$PROJ_DIR$}.72.3@1" 0 0 0 0 "" 0 "" 0
+Bp5=_ "STD_CODE" "{$PROJ_DIR$}.206.9@1" 0 0 0 0 "" 0 "" 0
+Bp6=_ "STD_CODE" "{$PROJ_DIR$}.210.9@1" 0 0 0 0 "" 0 "" 0
+Bp7=_ "STD_CODE" "{$PROJ_DIR$}.107.9@1" 0 0 0 0 "" 0 "" 0
+Bp8=_ "STD_CODE" "{$PROJ_DIR$}.104.5@1" 0 0 0 0 "" 0 "" 0
+Bp9=_ "STD_CODE" "{$PROJ_DIR$}.101.17@1" 0 0 0 0 "" 0 "" 0
+Bp10=_ "STD_CODE" "{E:\work\wuliu\wuliu_project_16052701_moto_statue_IAP\Project\src\main.c}.212.11@1" 0 0 0 0 "" 0 "" 0
+Bp11=_ "STD_CODE" "{E:\work\wuliu\wuliu_project_16052701_moto_statue_IAP\Project\src\zongxian.c}.192.9@1" 0 0 0 0 "" 0 "" 0
+Bp12=_ "STD_CODE" "{D:\0___STM32_IAR\0___workspace\8___load_paras_wcs_set_uart\CAR_CTRL_master_PROJECT_v1.2.0.4\Project\src\stm32f10x_it.c}.276.7@1" 0 0 0 0 "" 0 "" 0
+Bp13=_ "STD_CODE" "{D:\0___STM32_IAR\0___workspace\8___load_paras_wcs_set_uart\CAR_CTRL_master_PROJECT_v1.2.0.4\Project\src\stm32f10x_it.c}.274.10@1" 0 0 0 0 "" 0 "" 0
+Count=14
+[Aliases]
+A0=_ "E:\work\·Ö¼ð\STM32F107_ETH_LwIP_V1.0.0\Libraries\STM32_ETH_Driver\src\stm32_eth.c" ""
+Count=1
+SuppressDialog=0
