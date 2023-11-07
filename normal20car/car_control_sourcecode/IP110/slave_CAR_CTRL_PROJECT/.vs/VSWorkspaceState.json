@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\slave__CAR_CTRL_PROJECT_v1.2.6.1",
+    "\\slave__CAR_CTRL_PROJECT_v1.2.6.1\\Project",
+    "\\slave__CAR_CTRL_PROJECT_v1.2.6.1\\Project\\inc",
+    "\\slave__CAR_CTRL_PROJECT_v1.2.6.1\\Project\\src",
+    "\\slave__CAR_CTRL_PROJECT_v1.2.6.1\\Utilities"
+  ],
+  "SelectedNode": "\\slave__CAR_CTRL_PROJECT_v1.2.6.1\\Project\\src\\can_bus.c",
+  "PreviewInSolutionExplorer": false
+}
